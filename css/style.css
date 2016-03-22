@@ -8,20 +8,30 @@ html {
 }
 
 body {
-    background-color: lightgray;
+    /*background-color: lightgray;*/
     font-family: 'Roboto', sans-serif;
 }
 
 div {
-    border: 1px solid chocolate;
+    /*border: 1px solid chocolate;*/
 }
 
 ol, ul {
     list-style: none;
 }
 
+h5 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+
+}
+
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .content {
@@ -58,6 +68,53 @@ button {
 
 .cases {
     background-color: #ffffff;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 2px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+ul.icons {
+    margin: 0px;
+    padding-left: 0px;
 }
 
 .cases .content {
