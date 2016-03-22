@@ -1,5 +1,15 @@
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -13,6 +23,85 @@ div {
 .content {
     width: 970px;
     height: 70px;
+    padding: 0 15px;
     margin: 0 auto;
 }
+
+.logo {
+    height: 70px;
+}
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    color: white;
+    font-size: 1.125rem;
+}
+
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.top-navigation .links {
+    float: right;
+}
+
+.links li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    margin-left: 25px;
+}
+
+.top-navigation ul {
+    margin-top: 25px;
+}
+
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+
+.introduction h1, .introduction h3 {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+
+
 
